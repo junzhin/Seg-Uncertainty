@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 import torch.nn as nn
 import yaml
 
+# 基本上与generate-plabel-cityscapes 一直， 除了这里不包含heatmap 的生成
 torch.backends.cudnn.benchmark=True
 
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
